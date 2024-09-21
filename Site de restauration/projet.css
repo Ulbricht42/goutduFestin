@@ -1,0 +1,95 @@
+.cc-navbar{
+    background-color: rgba( 0, 0, 0, .55);
+    font-family: serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+    } 
+    .style-but{
+        text-decoration: none;
+        color: var(--bs-teal);
+    
+    }
+    .design-bouton{
+        color: white;
+        border: none;
+        background-color: var(--bs-teal);
+        border-radius: 10px;
+        width: 100%;
+        transition: 0,5s;
+        padding: 10px;
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+    .btn-order{
+        color: var(--bs-teal);
+        border-color: var(--bs-teal);
+        transition: 0,5s;
+    }
+    .btn-order:hover{
+        color: white;
+        background-color: var(--bs-teal);
+    }
+    .cc-navbar .nav-link {
+        border-bottom: 1px solid transparent;
+        transition: all 0,3s ease-out;
+       transition-duration: 0,4s ease-in-out;
+      
+    }
+    .cc-menu{
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/viande-legumes-grilles-assiette-bois-generes-par-ia_188544-10123.jpg) center center fixed no-repeat;
+        background-size: cover;
+        height: 1350px;
+    }
+    .banner,
+    .order-form{
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/curry-aigre-poisson-tete-serpent-fondue-epicee-jardin-cuisine-thailandaise_1150-26411.jpg) center center fixed no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+    .order-form{
+        height: 500px;
+    }
+    .banner .banner-dex{
+        font-size: 48px;
+        font-weight: 400;
+        color: #FFF;
+    }
+    .cc-navbar .nav-link:hover{
+       padding-bottom: 20px;
+       border-bottom: var(--bs-teal);
+      
+    }
+    .redressed{
+       font-family: cursive, redressed; 
+    }
+    .merriweather{
+        font-family: serif;
+    }
+    @media(max-width: 428px){
+        .cc-first{
+            margin-bottom: 20px;
+        }
+        .cc-menu{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/viande-legumes-grilles-assiette-bois-generes-par-ia_188544-10123.jpg) center center fixed no-repeat;
+            background-size: cover;
+            height: 2500px;
+        }
+        .order-form{
+            height: 650px;
+        }
+        .social{
+            margin: 30px;
+        }
+        .footer{
+         text-align: center;
+        }
+        .footer-ul{
+            margin-bottom: 40px;
+        }
+        .button1{
+            margin-bottom: 15px;
+        }
+        .BOTON{
+           margin-bottom: 20px;
+        }
+    }
